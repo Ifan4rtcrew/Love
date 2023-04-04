@@ -14,7 +14,7 @@ footer.innerHTML = sender;
 footer.href = "https://www.facebook.com/IfanCyber4rt/";
 
 document.querySelector(".tombol").addEventListener('click', function () {
-  Swal.fire("Hallo Bee", "Q ada pertanyaan nih buat kamu?", "question").then(function () {
+  Swal.fire("Hallo Buk Bee", "Q ada pertanyaan nih buat kamu?", "question").then(function () {
     Swal.fire("Jawab yang jujur ya!").then(function () {
       Swal.fire("Awas aja kalo Boong!!", "", "error").then(function () {
 
